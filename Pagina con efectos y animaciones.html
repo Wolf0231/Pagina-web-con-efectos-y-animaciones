@@ -1,0 +1,121 @@
+<html> 
+<head>
+<title> One Piece </title>
+<h1> One Piece </h1>
+</head>
+
+<body>
+    <p class="newspaper"> One Piece (en japonés: ワンピース) es una serie de televisión de anime basado en el manga de mismo nombre, realizado por Toei Animation y siendo transmitido en Japón en Fuji TV desde el 20 de octubre de 1999 hasta la actualidad. Además de adaptar el manga, el anime incluye varias historias de relleno dentro de la serie, además de varios especiales de televisión con historias originales. Toei Animation también ha realizado varias películas basadas en la franquicia.
+
+        En las encuestas realizadas por la cadena de televisión japonesa TV Asahi para elegir los 100 Mejores Animes de Japón, basada en dos encuestas, una como serie online vista en internet y otra como serie nacional vista en Japón, One Piece alcanzó el puesto número 06 como serie online y el puesto número 04 como serie nacional.  En la actualidad es el 15º anime más largo de la historia.
+        </p>
+</body>
+<section>  
+    <!-- Imagen -->
+    <img src="https://i.blogs.es/210615/one-piece-1-/1366_2000.jpeg" alt="">
+
+  </section>
+
+<section>
+<body>
+<h2> Historia </h2>
+<div class="div1"> Esta historia se sitúa en el momento más álgido de la Gran Era de los Piratas, cuando el joven Monkey D. Luffy quiere llegar a ser el Rey de los Piratas y hacerse al fin con un legendario tesoro, el One Piece.</div>
+
+    <div class="item">
+    </div>
+    <div class="div2"> El anime ya tiene 20 temporadas, en las que se ha podido seguir el viaje de la tripulación de Luffy mientras se enfrenta a los piratas más fuertes. </div>
+<div class="flex-container">
+    <div class="flex-item">Joel</div>
+    <div class="flex-item">Joel</div>
+    <div class="flex-item">Joel</div>
+</div>
+</body>
+</section>
+
+<style>
+.div1{
+    margin: 40px;
+    margin-left: 100px;
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    border: 2px solid black;
+    border: 2px solid black;
+    -ms-transform: scale(2); 
+    -webkit-transform: scale(2); 
+    transform: scale(2); 
+    text-align: justify;
+    font-size: small;
+    font-size: 9px;
+    -webkit-transform: rotateX(500deg); 
+    transform: rotateX(500deg); 
+    animation-name: animacion;
+    animation-duration: 8s;
+    position: relative;
+    resize: horizontal;
+    overflow: auto;
+}
+/* Chrome, Safari, Opera */
+@keyframes animacion {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 300px; top: 0px}
+    50%  {background: blue; left: 300px; top: 300px}
+    75%  {background: orange; left: 0px; top: 300px}
+    100% {background: green; left: 0px; bottom: 0px;}
+}
+.item{
+    background: tomato;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 800px;
+    box-sizing: border-box;
+    clip-path: circle(100% at bottom left);
+    transition: background-color, width 2s;
+}
+
+.item:hover{
+    background: skyblue;
+    width: 400px;
+}
+h2{
+    color: red;
+    font-size: 40px;
+}
+h1{
+    color: red;
+}
+img{
+    width: 500px;   
+}
+p{
+    text-align: justify;
+}
+.newspaper{
+    -webkit-column-count: 3;
+}
+.div2{
+    width: 300px;
+    height: 100px;
+    margin-top: 100px;
+    border: 1px solid blue;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color: lightgreen;
+    margin-top: 50px;
+}
+.flex-item {
+    background-color: whitesmoke;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-top: 60px;
+    text-align: center;
+}
+</style>
+
+</html>
